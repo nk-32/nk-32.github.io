@@ -3,16 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ふたりのシンプル家計簿 プライバシーポリシー | nk-32 App Policies</title>
-    <meta
-      name="description"
-      content="ふたりのシンプル家計簿のプライバシーポリシーです。匿名認証、ルーム共有、支出データ、保存期間、セキュリティ、お問い合わせ先を掲載しています。"
-    >
+    <title>ふたりのシンプル家計簿 プライバシーポリシー | nk-32</title>
     <link rel="stylesheet" href="/styles.css">
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="/">nk-32 App Policies</a>
+      <a class="brand" href="/">nk-32</a>
       <nav class="header-nav" aria-label="Primary">
         <a href="/">Home</a>
         <a href="/support/">Support</a>
@@ -20,97 +16,42 @@
     </header>
 
     <main class="site-shell page-shell">
-      <a class="back-link" href="/">← 一覧へ戻る</a>
-
-      <section class="page-hero">
-        <p class="eyebrow">Privacy Policy</p>
-        <h1>ふたりのシンプル家計簿</h1>
-        <p class="lead">
-          共有ルーム型の家計簿アプリとして、匿名認証、ルーム情報、支出データ、ローカル暗号化保存の扱いを整理したポリシーです。
-        </p>
-        <div class="fact-grid">
-          <div class="fact">
-            <span>Page</span>
-            <strong>プライバシーポリシー</strong>
-          </div>
-          <div class="fact">
-            <span>Updated</span>
-            <strong>2025年11月24日</strong>
-          </div>
-          <div class="fact">
-            <span>Path</span>
-            <strong>/budgetbook/privacy-policy/</strong>
-          </div>
-        </div>
-      </section>
-
       <article class="content-card">
-        <h2>プライバシーポリシー</h2>
-        <p>
-          最終更新日：2025年11月24日<br>
-          本ポリシーは、ふたりのシンプル家計簿（以下「本アプリ」）における利用者情報の取り扱いについて定めるものです。
-        </p>
+        <h1>ふたりのシンプル家計簿 プライバシーポリシー</h1>
+        <p>最終更新日：2025年11月24日</p>
 
-        <h2>1. 収集する情報</h2>
+        <p>「ふたりのシンプル家計簿」における利用者情報の取り扱いについて定めます。</p>
+
+        <h2>収集する情報</h2>
         <ul>
-          <li><strong>アカウント情報</strong>：Firebase 匿名認証により発行されるユーザ ID。メールアドレス等は取得しません。</li>
-          <li><strong>ルーム情報</strong>：ユーザーが入力したルーム名（キーワード）、パスコード（ハッシュ化）、ニックネーム。</li>
-          <li><strong>支出データ</strong>：金額、入力日時、メモ。</li>
-          <li><strong>デバイス情報</strong>：アプリの安定性向上のために取得されるクラッシュログ等（Apple/Firebase が収集）。</li>
-          <li><strong>ローカル保存情報</strong>：オフライン時の支出データ、未送信データ。端末内に暗号化して保管します。</li>
+          <li><strong>アカウント情報</strong>：Firebase 匿名認証によるユーザーID（メールアドレス等は取得しません）</li>
+          <li><strong>ルーム情報</strong>：ルーム名、パスコード（ハッシュ化）、ニックネーム</li>
+          <li><strong>支出データ</strong>：金額、日時、メモ</li>
+          <li><strong>デバイス情報</strong>：クラッシュログ等（Apple/Firebase が収集）</li>
         </ul>
 
-        <h2>2. 利用目的</h2>
+        <h2>第三者サービス</h2>
+        <p>ルーム共有・同期に Firebase（Google）を利用します。法令遵守の場合を除き、第三者への情報提供はしません。</p>
+
+        <h2>セキュリティ</h2>
         <ul>
-          <li>ルーム共有機能の提供および同期</li>
-          <li>入力データの保存・表示</li>
-          <li>不具合修正、品質向上</li>
-          <li>ユーザーサポート対応</li>
-          <li>不正利用防止、セキュリティ確保</li>
+          <li>Firestore によるアクセス制御</li>
+          <li>パスコードのハッシュ化・Keychain 保存</li>
+          <li>通信は TLS で暗号化</li>
+          <li>オフライン時のデータは端末内に暗号化して保管</li>
         </ul>
 
-        <h2>3. 共有・第三者提供</h2>
-        <ul>
-          <li>原則として利用者の同意なく第三者へ提供しません。</li>
-          <li>法令遵守のために開示が必要な場合、またはサーバーホスティング・クラッシュ解析等を行う業務委託先（Firebase 等）には必要範囲で提供します。</li>
-        </ul>
+        <h2>データの削除</h2>
+        <p>ルーム設定画面からデータ削除・退室ができます。ルーム削除時に関連データも削除されます。</p>
 
-        <h2>4. データの保存期間</h2>
-        <ul>
-          <li>ルームに紐づくデータはユーザーが削除または退室操作を行うまで保持します。</li>
-          <li>ルーム削除時には関連データを削除します。</li>
-        </ul>
-
-        <h2>5. セキュリティ</h2>
-        <ul>
-          <li>Firestore でのアクセス制御</li>
-          <li>パスコードのハッシュ化保存</li>
-          <li>端末内のパスコード保存には Keychain を使用</li>
-          <li>通信は TLS により暗号化</li>
-        </ul>
-
-        <h2>6. ユーザーの権利</h2>
-        <ul>
-          <li>ルーム設定画面からデータ削除、退室、パスコード変更を行えます。</li>
-          <li>追加の開示、訂正、削除の希望がある場合は下記問い合わせ先までご連絡ください。</li>
-        </ul>
-
-        <h2>7. プライバシーポリシーの変更</h2>
-        <ul>
-          <li>変更を行う場合は、本ページでお知らせします。</li>
-        </ul>
-
-        <h2>8. お問い合わせ</h2>
-        <ul>
-          <li>開発者名：Kota Nagai</li>
-          <li>Xアカウント：@kn_simple</li>
-        </ul>
+        <h2>お問い合わせ</h2>
+        <p><a href="/support/">サポートページ</a>よりお問い合わせください。</p>
+        <p>開発者：Kota Nagai　X: <a href="https://x.com/kn_simple">@kn_simple</a></p>
       </article>
     </main>
 
     <footer class="site-footer">
       <span>© 2026 Kota Nagai</span>
-      <span>Simple Shared Budget privacy disclosure.</span>
     </footer>
   </body>
 </html>
