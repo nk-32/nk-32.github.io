@@ -60,3 +60,115 @@ ul {
   color: #888;
   font-size: 0.85rem;
 }
+
+.product-page {
+  display: grid;
+  gap: 48px;
+}
+
+.product-intro {
+  display: grid;
+  grid-template-columns: 144px minmax(0, 1fr);
+  gap: 28px;
+  align-items: center;
+  padding: 28px 0 32px;
+  border-bottom: 3px solid #1f8a70;
+}
+
+.app-icon {
+  display: block;
+  width: 144px;
+  height: 144px;
+  border-radius: 28px;
+  box-shadow: 0 14px 32px rgb(17 53 45 / 16%);
+}
+
+.product-kicker {
+  margin: 0 0 4px;
+  color: #176b57;
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
+.product-intro h1 {
+  margin: 0;
+  font-size: clamp(2.4rem, 10vw, 4.5rem);
+  line-height: 1;
+}
+
+.product-lead {
+  max-width: 34rem;
+  margin: 20px 0 0;
+  font-size: 1.08rem;
+}
+
+.feature-section h2,
+.support-band h2 {
+  margin-top: 0;
+}
+
+.feature-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.feature-list article {
+  padding-top: 16px;
+  border-top: 1px solid #a9c7bf;
+}
+
+.feature-list h3 {
+  margin: 0 0 8px;
+  font-size: 1rem;
+}
+
+.feature-list p,
+.support-band p {
+  margin: 0 0 12px;
+}
+
+.support-band {
+  padding: 24px;
+  border-left: 4px solid #1f8a70;
+  background: #f2f7f5;
+}
+
+.text-link {
+  font-weight: 700;
+}
+
+.policy-content h1 {
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 560px) {
+  .product-page {
+    gap: 36px;
+  }
+
+  .product-intro {
+    grid-template-columns: 88px minmax(0, 1fr);
+    gap: 18px;
+    align-items: start;
+  }
+
+  .app-icon {
+    width: 88px;
+    height: 88px;
+    border-radius: 19px;
+  }
+
+  .product-intro h1 {
+    font-size: 2.45rem;
+  }
+
+  .product-lead {
+    grid-column: 1 / -1;
+  }
+
+  .feature-list {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+}
